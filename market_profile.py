@@ -15,7 +15,7 @@ def Print_Market_Profile(height_precision = 1,
         cursor = db_connection.cursor()
         stmt = "SHOW TABLES LIKE 'upstox_broker_info'"
         cursor.execute(stmt)
-        result = cursor.fetchone()asdfasdfasdf
+        result = cursor.fetchone()
         if result:
             print ("a53787655 table is exist")
         else:
